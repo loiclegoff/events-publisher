@@ -18,3 +18,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.markdown a {
+  @apply text-blue-600;
+}
+
+.markdown a:hover {
+  @apply text-blue-400 underline;
+}
+
+.inline-p p {
+  display: inline;
+}

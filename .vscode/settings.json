@@ -2,7 +2,12 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "css.validate": false,
-    "stylelint.enable": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true,
+        "stylelint.enable": true
+     },
     "css.customData": [
       ".vscode/css_custom_data.json"
     ],
